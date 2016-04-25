@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/aliceblue"
+              android:orientation="vertical"
+              tools:context="cn.studyjams.s1.sj61.luolaiyuan.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/welcom_to_school"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/navigation_button"
+                style="@style/MainIndexButtonStyle"
+                android:text="入学导航"
+                />
+
+            <Button
+                android:id="@+id/eating_in_school_button"
+                style="@style/MainIndexButtonStyle"
+                android:text="吃在****大学"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/leaving_in_school_button"
+                style="@style/MainIndexButtonStyle"
+                android:text="住在****大学"/>
+
+            <Button
+                android:id="@+id/study_in_school_button"
+                style="@style/MainIndexButtonStyle"
+                android:text="学在****大学"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/official_website_button"
+                style="@style/MainIndexButtonStyle"
+                android:text="****大学官网"/>
+
+            <Button
+                android:id="@+id/question_button"
+                style="@style/MainIndexButtonStyle"
+                android:text="常见问题汇总"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
