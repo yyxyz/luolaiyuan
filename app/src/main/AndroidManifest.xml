@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.studyjams.s1.sj61.luolaiyuan">
+          package="cn.studyjams.s1.sj61.luolaiyuan">
 
     <application
         android:allowBackup="true"
@@ -10,34 +10,39 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="新生导航站">
+            android:label="@string/app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".NavigatieToSchool"
-            android:label="入学导航"></activity>
+            android:label="@string/navigation_title"></activity>
         <activity
             android:name=".EatingAtSchool"
-            android:label="吃在****大学"></activity>
+            android:label="@string/eating_title"></activity>
         <activity
             android:name=".LeaveAtSchool"
-            android:label="住在****大学"></activity>
+            android:label="@string/living_title"></activity>
         <activity
             android:name=".LearningAtSchool"
-            android:label="在****大学学习"></activity>
+            android:label="@string/learn_title"></activity>
         <activity
             android:name=".OfficialWebSite"
-            android:label="****大学官网"></activity>
+            android:label="@string/official_webSite_title"></activity>
         <activity
             android:name=".AnswerQuestion"
-            android:label="常见问题解答"></activity>
+            android:label="@string/answer_title"></activity>
         <activity
             android:name=".AnswerQuestionDetails"
-            android:label="常见问题解答"></activity>
+            android:label="@string/answer_title"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
     </application>
 
 </manifest>
