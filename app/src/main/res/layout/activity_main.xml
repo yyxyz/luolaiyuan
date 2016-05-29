@@ -15,7 +15,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/welcom_to_school"
+            android:src="@drawable/welcome_to_school"
             android:scaleType="fitXY"/>
 
     </LinearLayout>
@@ -34,13 +34,13 @@
             <Button
                 android:id="@+id/navigation_button"
                 style="@style/MainIndexButtonStyle"
-                android:text="入学导航"
+                android:text="@string/navigation_title"
                 />
 
             <Button
                 android:id="@+id/eating_in_school_button"
                 style="@style/MainIndexButtonStyle"
-                android:text="吃在****大学"/>
+                android:text="@string/eating_title"/>
         </LinearLayout>
 
         <LinearLayout
@@ -51,12 +51,12 @@
             <Button
                 android:id="@+id/leaving_in_school_button"
                 style="@style/MainIndexButtonStyle"
-                android:text="住在****大学"/>
+                android:text="@string/living_title"/>
 
             <Button
                 android:id="@+id/study_in_school_button"
                 style="@style/MainIndexButtonStyle"
-                android:text="学在****大学"/>
+                android:text="@string/learn_title"/>
         </LinearLayout>
 
         <LinearLayout
@@ -67,12 +67,12 @@
             <Button
                 android:id="@+id/official_website_button"
                 style="@style/MainIndexButtonStyle"
-                android:text="****大学官网"/>
+                android:text="@string/official_webSite_title"/>
 
             <Button
                 android:id="@+id/question_button"
                 style="@style/MainIndexButtonStyle"
-                android:text="常见问题汇总"/>
+                android:text="@string/answer_title"/>
 
         </LinearLayout>
     </LinearLayout>

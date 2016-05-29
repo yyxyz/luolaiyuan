@@ -83,6 +83,7 @@ public class AnswerQuestion extends BaseActivity {
                 AnswerQuestionDetails.actionStart(AnswerQuestion.this, "kuanDai");
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
